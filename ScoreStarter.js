@@ -13,7 +13,7 @@ const p2 = {
 const resetButton = document.querySelector('#reset');
 const winningScoreSelect = document.querySelector('#winningScore');
 let winningScore = 3;
-let isGameOver = true;
+let isGameOver = false;
 
 function updateScores(player, opponent) {
     if (!isGameOver) {
